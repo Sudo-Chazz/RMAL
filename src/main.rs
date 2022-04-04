@@ -39,7 +39,7 @@ fn get_nth_arg(n: usize) -> String {
 fn help() -> String {
     format!(
         "\nThis is a CLI tool to quickly look up the vendor associated with the provided MAC Address.
-        In this tools current state, only one MAC address can be provided at a time.\n
+        In this tools current state, only one MAC address can be provided at a time. More features are in the works such as bulk look-up\n
             [*] appropriate delimiter formatting of MAC address: '-' '.' ':' or no delimiter at all.
             [*] Examples: 
                
